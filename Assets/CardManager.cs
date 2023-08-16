@@ -42,7 +42,6 @@ namespace Core.Cards
                     string spritePath = cardSuit.ToLower() + "/" + cardSlug;
                     CardData newCard = new CardData(cardSlug, cardIndex, Resources.Load<Sprite>(spritePath));
                     DeckData.Add(cardSlug, newCard);
-                    print(cardSlug + "-"+spritePath);
                 }
             }
 

@@ -1,0 +1,20 @@
+Game Name: Pyramid Solitaire
+
+Objective: To remove all the cards from the pyramid by pairing them up to a total value of 13.
+
+Number of Players: 1
+
+Deck: A standard 52-card deck with the Jokers removed.
+
+Gameplay:
+
+-Set up the game by placing 28 cards in a pyramid shape, with the top card face up and the rest face down.
+-The remaining cards are placed in a draw pile, face down.
+-Flip over the top card from the draw pile and place it beside the draw pile. This card is now the discard pile.
+-The goal of the game is to remove all the cards from the pyramid by pairing them up to a total value of 13. Kings are valued at 13 and can be removed without pairing.
+-To make a pair, select two cards that add up to 13. You can pair any face-up cards in the pyramid with the top card of the discard pile. You can also pair cards from the pyramid with each other, as long as both cards are face up and their total value is 13.
+-Once you make a pair, place the cards in a separate discard pile.
+-If you can't make a pair, you can draw a card from the draw pile and add it to the discard pile. You can continue to draw cards from the draw pile and add them to the discard pile until you find a pair or the draw pile runs out.
+-Once the draw pile runs out, you can continue to pair up cards from the pyramid and the discard pile until you either remove all the cards from the pyramid or run out of possible pairs.
+-If you can't make any more pairs and there are no more cards in the draw pile, the game is over and you have lost.
+-If you remove all the cards from the pyramid, you have won!
