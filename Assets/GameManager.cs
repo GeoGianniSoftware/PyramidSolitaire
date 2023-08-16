@@ -195,11 +195,13 @@ public class GameManager : Core.IManager
             if (selectionA != null && selectionA.cardType == CardEntity.CardType.Pyramid) {
                 bool check = CheckCardCheat(selectionA, discardTop);
 
-                if (check) {
-                    discardTop.CheatOutline(true);
-                }
-                else {
-                    discardTop.CheatOutline(false);
+                if(discardTop != null) {
+                    if (check) {
+                        discardTop.CheatOutline(true);
+                    }
+                    else {
+                        discardTop.CheatOutline(false);
+                    }
                 }
             }
 
@@ -207,6 +209,8 @@ public class GameManager : Core.IManager
     }
 
     public bool CheckCardCheat(CardEntity refCard, CardEntity cardToCheck) {
+        if (refCard == null || cardToCheck == null)
+            return false;
 
         if (refCard != null && cardToCheck.CanBePaired() && refCard.cardValue + cardToCheck.cardValue == 13) {
             return true;
